@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "match": "(mine_terms|convert_docs|visualize_graph|check_orphans|lint_terms)\\.py",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo",
+            "args": ["🚨 Long-running task detected! Consider using tmux/screen to prevent disconnection"]
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "match": "\\.py$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo",
+            "args": ["Note: Check for print() statements - use logger.info/debug instead in DDD architecture"]
+          }
+        ]
+      }
+    ]
+  }
+}

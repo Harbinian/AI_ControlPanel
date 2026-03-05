@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(pip show:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(rm -f E:/CA001/Norms/pipeline.py E:/CA001/Norms/dashboard.py E:/CA001/Norms/STATUS_DASHBOARD.md)",
+      "Bash(ls:*)",
+      "Bash(xargs -I{} basename {})",
+      "Bash(streamlit run:*)",
+      "Bash(curl:*)",
+      "Bash(grep:*)",
+      "Bash(git checkout:*)",
+      "Bash(tasklist:*)",
+      "Bash(powershell:*)",
+      "WebSearch",
+      "mcp__MiniMax__web_search",
+      "Bash(timeout:*)",
+      "Bash(pm2:*)",
+      "Bash(git add:*)",
+      "Bash(git reset)",
+      "Bash(npx pm2:*)",
+      "Bash(where:*)",
+      "Bash(\"C:\\\\Users\\\\charl\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python310\\\\python.exe\" -m streamlit run admin_app.py --server.port 8501)",
+      "Bash(netstat:*)",
+      "Bash(findstr :8501)",
+      "Bash(taskkill:*)",
+      "Bash(findstr:*)",
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "Bash(echo:*)",
+      "Bash(gh pr list:*)",
+      "Bash(node:*)",
+      "Bash(grep 8501:*)",
+      "Bash(cd:*)",
+      "Bash(\"docx|streamlit|pyvis|networkx|pandas|yaml\":*)",
+      "Bash(head:*)",
+      "Bash(ls -la \"G:/AI_ControlPanel/.claude/\" 2>/dev/null || dir \"G:\\\\AI_ControlPanel\\\\.claude\" 2>/dev/null)"
+    ]
+  },
+  "spinnerTipsEnabled": false,
+  "prefersReducedMotion": false
+}
